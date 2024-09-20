@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="icon" href="chase.png">
+    <link rel="stylesheet" href="arvest.css">
+</head>
+
+<body>
+    
+    <div class="header">
+        <div class="logo"><img src="" style="width: 130px" alt=""></div>
+
+        <div class="content">
+            <div class="svg1">
+              <img src="usa.svg" alt="">
+              <img src="arrow-down-s-line.svg" width="17" alt="">
+            </div>
+            <div class="svg2">
+                <p class="p1">English</p>
+                <img src="arrow-down-s-line.svg" style="margin-top: -17px;" width="17" alt="">
+            </div>
+        </div>
+
+    </div><br><br>
+
+    
+    <div class="container">
+
+        <img src="arvest.png" class="capital-logo" width="220" alt="">
+        <p class="p2">Sign In</p>
+
+        <form action="#">
+            <p class="p3">Username</p>
+            <input class="input" type="text" required><br><br>
+            <p class="p3">Password</p>
+            <input id="pass" class="input" type="password" required><br><br>
+            
+            <div class="check">
+               <input class="checkbox" type="checkbox">
+               <label for="">Remember Me</label><br>
+            </div><br>
+            <button class="btn">Sign in</button><br><br>
+
+            <div class="a-grp">
+              <a href="#" class="link">Forgot Username/Password?</a>
+              <a href="#" class="link2">Set Up Online Access</a>
+            </div>
+        </form>
+    </div>
+     
+    <div class="looking_account">
+       <p class="look">Looking for these accounts?</p>
+       <a href="#" class="credit">Commercial or Trade Credit</a>
+    </div>
+
+    <div class="footer">
+
+        <div class="footer_img">
+            <img src="fdic.svg" width="36" alt="">
+            <img src="equal_housing_lender.svg" width="36" alt="">
+        </div>
+
+    </div>
+
+</body>
+</html>
